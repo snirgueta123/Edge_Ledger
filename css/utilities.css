@@ -1,0 +1,81 @@
+.text-primary{
+    color: #28a754;
+}
+.text-secondary {
+    color: #0284d0;
+}
+
+/*Button*/
+ 
+.hero .main-title .btu2,
+.flex-column .column .btu2,.btn
+{
+    background:green;
+    color: #fff;
+    padding: 6px 15px;
+    border-radius: 5px;
+    border: white solid 1px;
+    
+}
+ .bg-primary {
+    background: #28a754;
+   color: #333;
+}
+.bg-light{
+    background: hsl(0, 17%, 84%);
+   color: #333;
+}
+.bg-dark{
+  background-color: #444;
+  color: #fff;
+}
+.bg-blue{
+    background: #0284d0;
+    color: #fff;
+}
+.flex-column .column .bg-light{
+    background: #f4f4f4;
+   color: #333;
+}
+
+/*flex-column*/
+.flex-column .flex-revers .row{
+    flex-direction: row-reverse;
+}
+.sec{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+    padding: 50px 0;
+}
+.row .column .btu2{
+    margin: 15px;
+    background: transparent;
+    border: #fff solid 1px;
+
+}
+.team img{
+    border-radius: 50%;
+    padding: 20px;
+}
+.flex-column .row{
+    padding-top: 30px;
+}
+.bg-dark{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 150px;
+
+}
+.bg-dark p{
+    padding-top: 10px;
+}
+.bg-dark a:hover{
+    color: #28a754; 
+}
